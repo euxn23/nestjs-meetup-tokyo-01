@@ -1,0 +1,25 @@
+meta:
+  url:
+  title:
+  thumbnail:
+  description:
+  sns:
+    - twitter
+slide:
+  loop: false
+  sidebar: false
+  targetBlank: true
+  showIndex: true
+  isVertical: false
+  code:
+    languages:
+      - javascript
+      - typescript
+      - bash
+    plugins: []
+    theme: tomorrow
+  chart: false
+  math: false
+extends:
+  js:
+  css: style.css

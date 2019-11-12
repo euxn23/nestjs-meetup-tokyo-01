@@ -1,0 +1,29 @@
+{
+  "name": "chrome-dev-summit-2019-report",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "fusuma start",
+    "build": "fusuma build",
+    "build:pdf": "fusuma pdf",
+    "live": "fusuma live",
+    "deploy": "yarn build && fusuma deploy",
+    "format": "prettier --write slides/main.md",
+    "lint": "textlint slides/main.md"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@fusuma/task-live": "1.15.0",
+    "@fusuma/task-pdf": "1.15.0",
+    "fusuma": "1.15.0",
+    "prettier": "^1.18.2",
+    "prettier-cli": "^0.1.0",
+    "prh": "^5.4.3",
+    "tailwindcss": "^1.1.4",
+    "textlint": "^11.3.1",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-rule-preset-ja-technical-writing": "^3.1.3",
+    "textlint-rule-preset-japanese": "^4.0.4",
+    "textlint-rule-prh": "^5.2.1"
+  }
+}
